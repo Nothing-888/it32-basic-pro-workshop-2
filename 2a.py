@@ -6,7 +6,7 @@ members = int(input("จำนวนลูกน้อง : "))
 total_cost = quantity * cost
 total_sell = quantity * sell
 profit = total_sell - total_cost
-boss = int(profit * (1/20))
+boss = int(profit * (2/10))
 share = (profit - boss) / members
 
 print("ต้นทุนทั้งหมด ", total_cost , " บาท")
